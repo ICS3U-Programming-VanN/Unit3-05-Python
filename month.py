@@ -19,12 +19,11 @@ def associate_month(month):
         9: "{} represents September.".format(month),
         10: "{} represents October.".format(month),
         11: "{} represents November.".format(month),
-        12: "{} represents December.".format(month)
+        12: "{} represents December.".format(month),
     }
 
     # If the user enters an invalid number
     return months.get(month, "Error. {} does not represent a month.".format(month))
-
 
 
 def main():
